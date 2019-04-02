@@ -1,10 +1,14 @@
 package net.voovo;
 
+import java.lang.ref.WeakReference;
+
+import net.voovo.pojo.User;
+import net.voovo.util.Timer;
+
 public class Test {
 
 	public static void main(String[] args) {
-		int a=3;
-		int b=(++a)+(++a)+(++a);
-		System.out.println(b);
+		WeakReference<User> a=new WeakReference<User>(null); 
+		
 	}
 }
