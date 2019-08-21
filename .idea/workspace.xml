@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e106396d-c049-47cb-89f3-7140c2bee377" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/voovo/clone/SimpleClone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/voovo/clone/SimpleClone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/voovo/clone/SimpleClone.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/net/voovo/clone/SimpleClone.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+            <state relative-caret-position="194">
+              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
               <folding>
                 <element signature="e#93#94#0" expanded="true" />
                 <element signature="e#119#120#0" expanded="true" />
@@ -150,12 +150,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1566397397779</updated>
-      <workItem from="1566397400329" duration="591000" />
+      <workItem from="1566397400329" duration="823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="591000" />
+    <option name="totallyTimeSpent" value="823000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -205,8 +205,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/net/voovo/clone/SimpleClone.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="32" column="75" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+        <state relative-caret-position="194">
+          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
           <folding>
             <element signature="e#93#94#0" expanded="true" />
             <element signature="e#119#120#0" expanded="true" />

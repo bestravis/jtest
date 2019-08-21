@@ -23,6 +23,7 @@ class User implements Cloneable{
 }
 
 /*浅克隆*/
+//深克隆需要自己递归，处理那些引用型变量
 public class SimpleClone {
 
     public static void main(String[] args) throws CloneNotSupportedException {
