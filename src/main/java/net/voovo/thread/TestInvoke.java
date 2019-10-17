@@ -24,9 +24,9 @@ public class TestInvoke {
 		}
 		System.out.println(list.get(0));
 		timer.stopAndPrint();
+
 //		Thread.sleep(1200);
 //		timer.stopAndPrint();
-		
 		
 	}
 }
