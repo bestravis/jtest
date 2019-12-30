@@ -1,5 +1,7 @@
 package net.voovo.pojo;
 
+import java.util.Objects;
+
 public class User {
 
 	private Integer id;
@@ -16,6 +18,23 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-	
+
+	public User(){
+
+	}
+
+	public User(Integer id, String name) {
+		this.id = id;
+		this.name = name;
+	}
+
+	@Override
+	public String toString() {
+		return "User{" +
+				"id=" + id +
+				", name='" + name + '\'' +
+				'}';
+	}
+
+
 }
