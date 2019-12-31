@@ -13,14 +13,14 @@ import java.util.stream.Stream;
  * @Author: yml
  * @Date: 2019/12/30 17:28
  */
-public class StreamFilterNote {
+public class StreamFilterLimitSkipDistinctNote {
 
     List<User> userList = Arrays.asList(
             new User(1, "赵"),
             new User(2, "钱"),
             new User(3, "孙"),
             new User(4, "李"),
-            new User(4, "李2"),
+            new User(4, "李"),
             new User(5, "叶")
     );
 
@@ -59,7 +59,7 @@ public class StreamFilterNote {
 
     /*
      * distinct 去重
-     * 需要重写对象的hashcode和equls
+     * 需要重写对象的hashcode和equals
      * */
     @Test
     public void test4() {
