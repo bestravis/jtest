@@ -24,3 +24,5 @@ hs_err_pid*
 /.settings
 /target
 /.classpath
+.idea
+/jtest.iml
