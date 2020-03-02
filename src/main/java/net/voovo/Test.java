@@ -15,8 +15,25 @@ import net.voovo.util.Timer;
 
 public class Test {
 
+<<<<<<< HEAD
 	public static void main(String[] args) throws InterruptedException {
 		TimeUnit.SECONDS.sleep(3);
+=======
+	public static void main(String[] args) {
+		f();
+	}
 
+	public static void f() {
+		String[] a = new String[2];
+		Object[] b = a;
+
+		Integer[] i=new Integer[2];
+		Object[] c = i;
+>>>>>>> 8e6892e520566ca9f19c6e4507606d0fa12e6518
+
+		a[0] = "hi";
+		System.out.println(JSONObject.toJSONString(a));
+		System.out.println(c.getClass());
+		b[1] = Integer.valueOf(42);
 	}
 }
