@@ -1,9 +1,12 @@
 package net.voovo.push;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
-import org.apache.log4j.Logger;
+
 
 /**
  * Author : YongBo Xie </br>
@@ -15,7 +18,7 @@ import org.apache.log4j.Logger;
 
 public class SmsSendThread implements Runnable {
 
-    private static Logger logger = Logger.getLogger(SmsSendThread.class);
+    private static Logger logger = LoggerFactory.getLogger(SmsSendThread.class);
     
 
     private List<String> mobileList;//手机号码

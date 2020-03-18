@@ -28,7 +28,9 @@ import org.apache.http.impl.client.HttpClients;
 import org.apache.http.impl.conn.PoolingHttpClientConnectionManager;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.util.EntityUtils;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 
 /**
  * Author : YongBo Xie </br>
@@ -39,7 +41,7 @@ import org.apache.log4j.Logger;
  */
 
 public class DSHWechatAPIHander {
-    private static Logger logger = Logger.getLogger(DSHWechatAPIHander.class);
+    private static Logger logger = LoggerFactory.getLogger(DSHWechatAPIHander.class);
 
     /**
      * 主动推送信息接口(群发)

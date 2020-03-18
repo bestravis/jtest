@@ -1,6 +1,7 @@
 package net.voovo.redis;
 
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.connection.DataType;
 import org.springframework.data.redis.core.RedisTemplate;
@@ -23,7 +24,7 @@ import java.util.regex.Pattern;
  */
 @Component
 public class RedisHandle implements RedisCommand<String, Object> {
-    private Logger logger = Logger.getLogger(RedisHandle.class);
+    private Logger logger = LoggerFactory.getLogger(RedisHandle.class);
     @Autowired
     protected RedisTemplate redisTemplate;
     /**

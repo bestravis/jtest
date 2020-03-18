@@ -1,5 +1,7 @@
 package net.voovo.push;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +11,6 @@ import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
 
 /**
  * Author : YongBo Xie </br>
@@ -21,7 +22,7 @@ import org.apache.log4j.Logger;
 
 public class DSHWechatMsgAndSmsSendThreadUtil {
 
-    private static Logger logger = Logger.getLogger(DSHWechatMsgAndSmsSendThreadUtil.class);
+    private static Logger logger = LoggerFactory.getLogger(DSHWechatMsgAndSmsSendThreadUtil.class);
     
     public static void main(String[] args) {
         List<String> mobileList = new ArrayList<>();

@@ -3,12 +3,11 @@ package net.voovo.push;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
-import org.apache.log4j.Logger;
 
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
-
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 
 /**
@@ -21,7 +20,7 @@ import com.alibaba.fastjson.JSONObject;
 
 public class WachatMagSendThread implements Runnable {
 
-    private static Logger logger = Logger.getLogger(WachatMagSendThread.class);
+    private static Logger logger = LoggerFactory.getLogger(WachatMagSendThread.class);
     
     private String accessToken;//公众号token
     private List<String> openIdList;//微信OpenID列表
