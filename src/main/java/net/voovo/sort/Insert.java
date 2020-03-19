@@ -4,6 +4,7 @@ import net.voovo.util.LoggerUtils;
 import org.apache.commons.lang3.time.StopWatch;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * @Author: yml
@@ -38,8 +39,9 @@ public class Insert {
 
     static int[] getRandomArray(int size) {
         int[] arr = new int[size];
+        Random random=new Random();
         for (int i = 0; i < size; i++) {
-            arr[i] = (int) (Math.random() * 1000) + 1;
+            arr[i] = random.nextInt(1000) + 1;
         }
         return arr;
     }
