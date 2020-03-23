@@ -15,7 +15,7 @@ public class Insert {
     public static void main(String[] args) {
         StopWatch stopWatch=StopWatch.createStarted();
 
-        int[] randomArray = getRandomArray(100000);
+        int[] randomArray = getRandomArray(1000);
 //        LoggerUtils.info(Arrays.toString(randomArray));
         stopWatch.stop();
         System.out.println(stopWatch.getTime());
