@@ -18,7 +18,9 @@ public class OverloadTest {
 
     public static void main(String[] args) {
         OverloadTest foo=new OverloadTest();
-        foo.method(null);//null为什么重载 TODO
-        foo.method(new Object());//有new这个动作才会重载
+        foo.method(null);
+        foo.method(new Object());
+        //（Object，？）当两个方法都可以重载时，编译器会选择数值类型较为明确的那一个，编译正常
+        //如果是两个普通的引用类型（String，Integer），会直接编译报错
     }
 }
