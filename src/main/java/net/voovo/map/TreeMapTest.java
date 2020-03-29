@@ -10,7 +10,7 @@ public class TreeMapTest {
         TreeMap<String, Object> map =new TreeMap<>();
         map.put("a","1");
         map.put("c","2");
-        map.put("b","3");
+        map.put("b","1");
         map.put("d","4");
 
         System.out.println(map);
