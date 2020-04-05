@@ -1,4 +1,4 @@
-package algorithm.quick_sort;
+package algorithm.sort.quick;
 
 public class Test {
 
