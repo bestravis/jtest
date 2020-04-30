@@ -3,15 +3,15 @@ package net.voovo;
 
 import cn.hutool.core.convert.Convert;
 
+import java.io.UnsupportedEncodingException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Test {
 
-	public static void main(String[] args) {
-		List<Integer> integers = Convert.toList(Integer.class, "1,2,3".split(","));
-		System.out.println(integers);
-
+	public static void main(String[] args) throws UnsupportedEncodingException {
+		List list=new ArrayList(2);
+		System.out.println(list.size());
 	}
-
 
 }

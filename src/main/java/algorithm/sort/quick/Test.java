@@ -1,5 +1,8 @@
 package algorithm.sort.quick;
 
+/**
+ * 快排
+ */
 public class Test {
 
     public static int[] qsort(int arr[],int start,int end) {
