@@ -1,17 +1,15 @@
 package net.voovo;
 
-
-import cn.hutool.core.convert.Convert;
-
-import java.util.List;
-
 public class Test {
 
 	public static void main(String[] args) {
-		List<Integer> integers = Convert.toList(Integer.class, "1,2,3".split(","));
-		System.out.println(integers);
+
+		int number=0;
+		do{
+			number=number+1;
+			System.out.println("今天是星期 "+number);
+		}while (number!=7);
 
 	}
-
 
 }
