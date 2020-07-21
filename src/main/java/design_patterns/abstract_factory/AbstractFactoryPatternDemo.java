@@ -1,5 +1,6 @@
 package design_patterns.abstract_factory;
 
+//抽象工厂模式（Abstract Factory Pattern）是围绕一个超级工厂创建其他工厂。该超级工厂又称为其他工厂的工厂
 public class AbstractFactoryPatternDemo {
    public static void main(String[] args) {
  
